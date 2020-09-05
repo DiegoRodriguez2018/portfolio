@@ -1,0 +1,91 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Main Page
+.main-page {
+  background: $primary-color;
+  opacity: 100;
+}
+
+.landing-page-content {
+  @include noSelect();
+  animation: fadeIn 5s ease 1;
+
+  .first-name {
+    font-family: $main-title-font;
+    font-size: 2rem;
+    color: $secondary-color;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-90%);
+  }
+  .last-name {
+    font-family: $main-title-font;
+    font-size: 2rem;
+    color: $secondary-color;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-40%);
+  }
+  .sub-heading {
+    color: $secondary-color;
+    font-family: $main-content-font;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 49%;
+    left: 52%;
+    transform: translateX(-20%);
+  }
+  /* Media query for mobile */
+  @media only screen and (max-height: 400px) {
+    .first-name {
+      top: 10%;
+    }
+    .last-name {
+      top: 26%;
+    }
+    .sub-heading {
+      top: 46%;
+    }
+  }
+}
+
+.display-as-header {
+  transition: opacity 1s;
+  display: flex;
+  justify-content: center;
+  .full-name {
+    @include makeClickable();
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    // The below is done to extend the clickable section so the component "closes" when clicking outside.
+    height: 100%;
+    width: 100%;
+    .subcontainer {
+      .first-name {
+        font-family: $main-title-font;
+        font-size: 1.2rem;
+        color: $secondary-color;
+        padding-right: 0.5rem;
+      }
+      .last-name {
+        font-family: $main-title-font;
+        font-size: 1.2rem;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .sub-heading {
+    display: none;
+  }
+}

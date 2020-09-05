@@ -1,0 +1,36 @@
+.socials-section {
+  position: absolute;
+  right:0;
+  top: 1%;
+  transform: translateX(-50%);
+  display: flex;
+  animation: zoom 800ms 1 ease;
+  .socials {
+    font-size: 2rem;
+    color: $secondary-color;
+    a {
+      color: $secondary-color;
+      margin: 0.2rem;
+      &:visited {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+/* button  animation */
+@keyframes zoom {
+  0% {
+    font-size: 1rem;
+  }
+  100% {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width:  768px) {
+  .socials-section {
+    left: 70%;
+    bottom: 2%;
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,27 @@
+const techStack = {
+  PostgreSQL: "devicons devicons-postgresql",
+  SQLite: "devicons devicons-sqllite",
+  AWS: "devicons devicons-aws",
+  GCP: "devicons devicons-google-cloud-platform",
+  MongoDB: "devicons devicons-mongodb",
+  Linux: "devicons devicons-linux",
+  Java: "devicons devicons-java",
+  Scala: "devicons devicons-scala",
+  TSQL: "devicons devicons-scala",
+  Ruby: "devicons devicons-ruby",
+  "Ruby on Rails": "devicons devicons-ruby_on_rails",
+  JavaScript: "devicons devicons-javascript",
+  "React.js": "devicons devicons-react",
+  "Node.js": "devicons devicons-javascript",
+  "Express.js": "devicons devicons-javascript",
+  Vue: "devicons devicons-javascript",
+  Python: "devicons devicons-python",
+  "CSS3/4": "devicons devicons-css3",
+  CSS: "devicons devicons-css3",
+  "C#": "devicons devicons-dotnet",
+  Sass: "devicons devicons-sass",
+  HTML5: "devicons devicons-html5",
+  Github: "devicons devicons-github_badge",
+};
+
+export default techStack;

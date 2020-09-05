@@ -1,0 +1,85 @@
+//Variables:
+$main-title-font: "Cinzel", serif;
+$main-content-font: "Raleway", sans-serif;
+
+//Mixins:
+@import "mixins";
+
+// Colors
+@import "colors";
+
+// Node Garden
+@import "nodeGarden";
+
+// Components
+@import "Socials";
+@import "LandingPageContent";
+@import "NavBar";
+@import "Projects";
+
+// Sections
+@import "./Sections";
+
+// General Styling
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $main-title-font;
+}
+
+h4,
+p,
+ul {
+  font-family: $main-content-font;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4,
+p,
+ul {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+.node-garden-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-left {
+  justify-content: left;
+}
+
+.row {
+  width: 100%;
+}
+
+.height-20 {
+  height: 20%;
+}
+
+.height-30 {
+  height: 30%;
+}
+
+.height-50 {
+  height: 50%;
+}
