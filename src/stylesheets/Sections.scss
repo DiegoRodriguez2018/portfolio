@@ -28,7 +28,15 @@ main {
   }
 }
 
+// This considers very large screens
 .about-section{
+  padding: 0;
+  padding: 1rem 3rem;
+
+  @media only screen and (max-width: 768px) {
+    width: 80vw;
+  }
+
   @media only screen and (max-width: 768px) {
     width: 80vw;
   }
@@ -46,14 +54,10 @@ main {
   justify-content: center;
 }
 
-/* end formating seccions */
 .skillset {
-  width: 60vw;
-  padding: 0;
-  max-height: 80vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0;
   li {
     margin: 1rem;
