@@ -19,7 +19,7 @@ export default () => {
     <section />, // Main Page
     <About />,
     <Skillset />,
-    <Portfolio />,
+    // <Portfolio />,
     <Contact />,
   ];
 
