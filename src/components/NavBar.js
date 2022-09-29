@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 export default ({ setIndex }) => {
-  const sections = ["About", "My Skills", "Contact"];
+  const sections = ["About", "Skills", "Contact"];
 
   return (
     <nav className="navbar-section">

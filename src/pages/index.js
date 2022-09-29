@@ -15,6 +15,9 @@ import Socials from "../components/Socials";
 import LandingPageContent from "../components/LandingPageContent";
 
 export default () => {
+  //  Awesome portfolios for inspiration:
+  //  https://jacekjeznach.com/about/
+
   const sections = [
     <section />, // Main Page
     <About />,
