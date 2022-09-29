@@ -14,10 +14,7 @@ export default () => {
         </div>
 
         <div className="sub-heading">
-          <h2>
-            Software Developer with background <br></br> in Engineering and
-            Science
-          </h2>
+          <h2> Mobile Application Developer </h2>
         </div>
       </div>
     </section>
