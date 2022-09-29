@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 export default ({ setIndex }) => {
-  const sections = ["About", "Experience", "Projects", "Contact"];
+  const sections = ["About", "My Skills", "Contact"];
 
   return (
     <nav className="navbar-section">
@@ -9,7 +9,7 @@ export default ({ setIndex }) => {
         {sections.map((section, i) => (
           <Button
             onClick={() => setIndex(i + 1)}
-            variant="contained"
+            variant="primary"
             size="small"
           >
             {section}

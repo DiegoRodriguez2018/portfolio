@@ -1,19 +1,30 @@
-import React from 'react';
+import React from "react";
 
-export default function About () {
+export default function About() {
   return (
     <section className="about-section">
-      <h3>
-        About me
-      </h3>
+      <h3>About me</h3>
       <p>
-        Hi, I’m Diego. I have professional experience in diverse sectors, including the industrial,
-        environmental and academic sectors. I enjoy interacting and creating technology and in the last years I
-        have develop a true passion for software development.
+        I'm an experienced Android Mobile Application Developer that enjoys
+        finding creative ways to solve complex problems and improving processes.
+        I enjoy getting things done and creating great user experiences. I’m
+        able to contribute effectively to iOS codebases and my experience also
+        includes web and back-end development with JavaScript/TypeScript
+        frameworks.
       </p>
+
       <p>
-        I love finding creative ways to solve complex problems. I appreciate when technology is done right as I
-        have seen how it can empower people to archive more and even improve their quality of life.
+        In the last few years, I have contributed to building engaging features
+        used by millions of people daily. This was done following
+        enterprise-grade design patterns and always keeping scalability,
+        testability and monitoring in mind.
+      </p>
+
+      <p>
+        Early in my career, I also got exposure to diverse sectors, including
+        Mechanical Engineering, Manufacturing, Environmental Science and Higher
+        Education. I also have interest in a range of tech fields like AI, Data
+        Science and 3d Modelling, which I explore in my spare time.
       </p>
     </section>
   );

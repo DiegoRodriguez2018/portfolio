@@ -31,7 +31,7 @@ export default () => (
 
     {/* <!-- Devicons icons --> */}
     <link
-      href="//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
       rel="stylesheet"
     />
     <title>Diego Rodriguez</title>

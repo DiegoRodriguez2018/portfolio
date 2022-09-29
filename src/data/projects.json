@@ -1,17 +1,24 @@
 [
   {
-    "name": "aws-s3-direct-upload",
-    "html_url": "https://github.com/DiegoRodriguez2018/aws-s3-direct-upload",
+    "name": "vue-js-projects",
+    "html_url": "https://github.com/DiegoRodriguez2018/vue-js-projects",
     "description": null,
-    "stargazers_count": 8,
+    "stargazers_count": 0,
+    "language": "Vue"
+  },
+  {
+    "name": "traffic-counter-API",
+    "html_url": "https://github.com/DiegoRodriguez2018/traffic-counter-API",
+    "description": "A simple REST API that handles data recorded by an automated traffic counter.",
+    "stargazers_count": 0,
     "language": "JavaScript"
   },
   {
-    "name": "portfolio",
-    "html_url": "https://github.com/DiegoRodriguez2018/portfolio",
+    "name": "social-network-RoR",
+    "html_url": "https://github.com/DiegoRodriguez2018/social-network-RoR",
     "description": null,
-    "stargazers_count": 1,
-    "language": "JavaScript"
+    "stargazers_count": 0,
+    "language": "Ruby"
   },
   {
     "name": "simple-rails-url-shortener-exercise",
@@ -21,18 +28,11 @@
     "language": "Ruby"
   },
   {
-    "name": "scala-toy-robot",
-    "html_url": "https://github.com/DiegoRodriguez2018/scala-toy-robot",
-    "description": null,
-    "stargazers_count": 1,
-    "language": "Scala"
-  },
-  {
-    "name": "vue-js-projects",
-    "html_url": "https://github.com/DiegoRodriguez2018/vue-js-projects",
+    "name": "shape-analyser",
+    "html_url": "https://github.com/DiegoRodriguez2018/shape-analyser",
     "description": null,
     "stargazers_count": 0,
-    "language": "Vue"
+    "language": "Python"
   },
   {
     "name": "scripts",
@@ -42,11 +42,11 @@
     "language": "JavaScript"
   },
   {
-    "name": "shape-analyser",
-    "html_url": "https://github.com/DiegoRodriguez2018/shape-analyser",
+    "name": "scala-toy-robot",
+    "html_url": "https://github.com/DiegoRodriguez2018/scala-toy-robot",
     "description": null,
-    "stargazers_count": 0,
-    "language": "Python"
+    "stargazers_count": 1,
+    "language": "Scala"
   },
   {
     "name": "scala-playground",
@@ -91,18 +91,18 @@
     "language": "Ruby"
   },
   {
-    "name": "social-network-RoR",
-    "html_url": "https://github.com/DiegoRodriguez2018/social-network-RoR",
+    "name": "portfolio",
+    "html_url": "https://github.com/DiegoRodriguez2018/portfolio",
     "description": null,
-    "stargazers_count": 0,
-    "language": "Ruby"
+    "stargazers_count": 1,
+    "language": "JavaScript"
   },
   {
-    "name": "android-studio-projects",
-    "html_url": "https://github.com/DiegoRodriguez2018/android-studio-projects",
+    "name": "node-applications",
+    "html_url": "https://github.com/DiegoRodriguez2018/node-applications",
     "description": null,
     "stargazers_count": 0,
-    "language": "Java"
+    "language": "JavaScript"
   },
   {
     "name": "mern-dbms-ask-izzy-plus-server",
@@ -175,10 +175,10 @@
     "language": "JavaScript"
   },
   {
-    "name": "traffic-counter-API",
-    "html_url": "https://github.com/DiegoRodriguez2018/traffic-counter-API",
-    "description": "A simple REST API that handles data recorded by an automated traffic counter.",
-    "stargazers_count": 0,
+    "name": "aws-s3-direct-upload",
+    "html_url": "https://github.com/DiegoRodriguez2018/aws-s3-direct-upload",
+    "description": null,
+    "stargazers_count": 8,
     "language": "JavaScript"
   },
   {
@@ -196,17 +196,17 @@
     "language": "JavaScript"
   },
   {
+    "name": "android-studio-projects",
+    "html_url": "https://github.com/DiegoRodriguez2018/android-studio-projects",
+    "description": null,
+    "stargazers_count": 0,
+    "language": "Java"
+  },
+  {
     "name": ".NET-exercises",
     "html_url": "https://github.com/DiegoRodriguez2018/.NET-exercises",
     "description": null,
     "stargazers_count": 0,
     "language": "C#"
-  },
-  {
-    "name": "node-applications",
-    "html_url": "https://github.com/DiegoRodriguez2018/node-applications",
-    "description": null,
-    "stargazers_count": 0,
-    "language": "JavaScript"
   }
 ]
